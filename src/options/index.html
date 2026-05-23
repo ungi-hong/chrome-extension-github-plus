@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GitHub Plus — 設定</title>
+    <link rel="stylesheet" href="./options.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>GitHub Plus</h1>
+        <p class="subtitle">
+          GitHubをちょっと便利にする機能たち。各機能を個別に有効/無効化できます。
+        </p>
+      </header>
+      <section id="features"></section>
+      <footer>
+        <p class="hint">
+          設定は <code>chrome.storage.sync</code> に保存され、同一アカウントの他のChromeでも同期されます。
+        </p>
+      </footer>
+    </main>
+    <script type="module" src="./options.ts"></script>
+  </body>
+</html>
